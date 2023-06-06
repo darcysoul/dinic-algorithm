@@ -1,0 +1,44 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+    font-size:large;
+    
+}
+
+.head{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 1px 1px black;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.exemple{
+    padding: 0.5em;
+    text-align:left;
+    border-style: solid;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+}
+
+.elem{
+    flex: 1;
+    margin-right: 10px;
+}
+h2{
+    color: rgb(0, 255, 238);
+}
+
+.result{
+    color:crimson;
+}
